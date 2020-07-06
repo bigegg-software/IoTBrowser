@@ -1,5 +1,5 @@
 {
-  "name": "be-chrome",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,10 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "alibabacloud-iot-device-sdk": "^1.2.8",
-    "cron": "^1.8.2",
-    "moment": "^2.27.0",
-    "puppeteer": "^4.0.1",
-    "underscore": "^1.10.2"
+    "@alicloud/pop-core": "^1.7.9"
   }
 }
