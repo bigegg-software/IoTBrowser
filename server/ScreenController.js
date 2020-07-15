@@ -20,7 +20,7 @@ function addJob(date, action) {
             "RegionId": "cn-shanghai",
             "Args": JSON.stringify(action.args),
             "Identifier": action.identifier,
-            "ProductKey": "a1VS22jypKl",
+            "ProductKey": "a1Ra6t7iOXz",
             "DeviceName": "0001"
         }
         console.log(params);
