@@ -1,8 +1,8 @@
 const Core = require('@alicloud/pop-core');
 
 const client = new Core({
-    accessKeyId: 'LTAI4GAoFDpefUJBFSDXkSC8',
-    accessKeySecret: 'YTsrYPh1Y877GtfknOUGYwxQPLYMPD',
+    accessKeyId: process.env.ISCREEN_ACCESSKEY,
+    accessKeySecret: process.env.ISCREEN_ACCESSKEY_SECRET,
     endpoint: 'https://iot.cn-shanghai.aliyuncs.com',
     apiVersion: '2018-01-20'
 });

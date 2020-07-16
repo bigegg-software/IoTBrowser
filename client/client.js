@@ -2,9 +2,9 @@ const _ = require('underscore');
 const iot = require('alibabacloud-iot-device-sdk');
 
 const config = {
-    productKey: 'a1Ra6t7iOXz', //将<productKey>修改为实际产品的ProductKey
-    deviceName: '0001',//将<deviceName>修改为实际设备的DeviceName
-    deviceSecret: '85ac5c1e236c6d47b4f20a69fc005603',//将<deviceSecret>修改为实际设备的DeviceSecret
+    productKey: process.env.ISCREEN_PRODUCT_KEY, //将<productKey>修改为实际产品的ProductKey
+    deviceName: process.env.ISCREEN_DEVICENAME,//将<deviceName>修改为实际设备的DeviceName
+    deviceSecret: process.env.ISCREEN_DEVICESECRET,//将<deviceSecret>修改为实际设备的DeviceSecret
 }
 
 const puppeteer = require('puppeteer');
